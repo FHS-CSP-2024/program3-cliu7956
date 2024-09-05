@@ -8,6 +8,42 @@
 #* You will understand the difference between strings, integers and floating point numbers
 
 
+myString = "something"
+myInt = 100
+myFloat = 2.5
+
+#casting example
+print(myInt/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
+
+
+
+num1 = int(input("Please enter a number "))
+
+print(num1 + num1)
+
+print("My int = " + str(myInt))
+
+
+thing = 500/6
+print(thing)
+print("My result is " + str(thing))
+print("My result is", thing) # , - automatically puts space
+print(f"My result is {thing}") #fstring - {} are variables
+
+
+
+print("First line\nSecond line\nThird line")
+print("List header")
+print("\t* Item1")
+print("\t* Item2")
+print("\t* Item 3\n\t* Item 4\n\t* Item 5")
+
+#File path examples
+#C: \Users\myname\Documents\OneNote Notebooks
+print("C:\\User\\myname\\Documents\\oiolaj") #double the backslashes wanted
+
 
 ## Live Demo ##
 #
