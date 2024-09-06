@@ -24,10 +24,10 @@ upper = 3000
 
 print("my name is " + str(name) + ", I am", age, "years old\n")
 print("my skills are")
-print("- " + str(skill1) + " (" + str(level1) + ')')
-print("- " + str(skill2) + " (" + str(level2) + ')')
-print("- " + str(skill3) + " (" + str(level3) + ')')
-print("\nI am looking for a job with a salary of " + str(lower) + "-" + str(upper) + " dollars per month")
+print(" - " + str(skill1) + " (" + str(level1) + ')')
+print(" - " + str(skill2) + " (" + str(level2) + ')')
+print(" - " + str(skill3) + " (" + str(level3) + ')')
+print("\nI am looking for a job with a salary of " + str(lower) + "-" + str(upper) + " dollars per month\n")
 
 
 
@@ -57,5 +57,8 @@ difference = x-y
 product = x*y
 quotient = x/y
 
+print(" ")
 print(int(x), "+", int(y), " = ", sum)
-
+print(int(x), "-", int(y), " = ", difference)
+print(int(x), "*", int(y), " = ", product)
+print(int(x), "/", int(y), " = ", quotient)
